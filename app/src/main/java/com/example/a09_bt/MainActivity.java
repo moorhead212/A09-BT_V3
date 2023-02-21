@@ -50,7 +50,8 @@ public class MainActivity extends AppCompatActivity {
 
     //// HERE
     // Data stream to/from NXT bluetooth
-    private InputStream cv_is = null;
+    //
+ private InputStream cv_is = null;
     private OutputStream cv_os = null;
 
     private boolean isConnected = false, forwardDown = false, leftDown = false, rightDown = false, reverseDown = false, motor3LeftDown = false, motor3RightDown = false;
